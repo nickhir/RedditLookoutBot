@@ -49,7 +49,7 @@ def get_comment_info(comment):
         {"Subreddit": subreddit_name},
         {"Title": submission_title},
         {"Submission_text": submission_text},
-        {"Comment": body},
+        {"Comment_text": body},
         {"Link": permalink}
     ]}
 
