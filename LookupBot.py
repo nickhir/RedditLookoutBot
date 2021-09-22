@@ -16,7 +16,7 @@ def submissions_and_comments(subreddit, **kwargs):
 
 
 def save_entry(dictonary, yaml_file_path):
-    sys.stdout.write(f"Found a post/comment that contains one of the Keywords. Saving it to file {yaml_file_path}")
+    # sys.stdout.write(f"Found a post/comment that contains one of the Keywords. Saving it to file {yaml_file_path}")
     # safe the found entry to your yaml file right away
     with open(yaml_file_path, 'r', encoding="utf-8") as yamlfile:
         cur_yaml = yaml.safe_load(yamlfile) or {}  # if it is empty load an empty dict
