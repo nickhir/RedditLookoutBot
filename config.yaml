@@ -1,4 +1,7 @@
 # define some parameters which will be loaded into the main script `LookupBot.py`
+# To get the client id and secret, follow the steps here.
+# https://www.integromat.com/en/help/app/reddit
+# for the redirect uri you can pick "localhost"
 client_id: ""
 client_secret: ""
 
