@@ -3,7 +3,7 @@ This is a very simple script for a Reddit Bot, which will constantly monitor all
 user defined subreddits. If any user defined keywords occur in the post/comment the contents along with other information
 of the post/comment gets saved to a [YAML](https://yaml.org/) file.
 
-I personally use the script to save threads about internships or job interviews in relevant subreddits.
+I personally use the script to save threads about internships or job interviews in relevant subreddits, but I think it will also be helpful for people who are completely new to the reddit API. 
 
 ## Installation
 - [python 3.x](https://www.python.org/)
